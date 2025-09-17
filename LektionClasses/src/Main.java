@@ -16,16 +16,16 @@ public class Main {
 
         System.out.println(newBook);
         newBook.checkGenre();
-
+        System.out.println("-------------------------------");
         System.out.println(newBook1);
         newBook1.checkGenre();
-
+        System.out.println("-------------------------------");
         System.out.println(newBook2);
         newBook2.checkGenre();
-
+        System.out.println("-------------------------------");
         System.out.println(newBook3);
         newBook3.checkGenre();
+        System.out.println("-------------------------------");
 
-
-    }
+    }   
 }

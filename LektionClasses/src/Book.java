@@ -11,7 +11,7 @@ public class Book {
         this.title = title;
         this.author = author;
         this.pages = pages;
-        this.pageDay = 25;
+        this.pageDay = pageDay;
         this.genre = genre;
     }
 
@@ -21,22 +21,22 @@ public class Book {
     void checkGenre(){
     if (genre == "Fantasy")
     {
-        System.out.println("It's not a Fantasy book");
+        System.out.println("Genre: Fantasy");
     }
     else {
-        System.out.println("Genre: Fantasy");
+        System.out.println("It's not a Fantasy book");
     }
     }
 
     @Override
     public String toString() {
         return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", pages=" + pages +
-                ", pageDay=" + pageDay +
-                ", time=" + time + " Day" +
-                ", genre='" + genre + '\'' +
+                "title: " + title + '\'' +
+                ", author: '" + author + '\'' +
+                ", pages: " + pages +
+                ", pages/Day: " + pageDay +
+                ", time: " + time + " Day" +
+                ", genre: " + genre + '\'' +
                 '}';
     }
 }
