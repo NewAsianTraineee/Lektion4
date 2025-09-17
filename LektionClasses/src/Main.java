@@ -38,6 +38,7 @@ public class Main {
     // Understanding what static meant
     // https://stackoverflow.com/questions/2649213/in-laymans-terms-what-does-static-mean-in-java
     // Detta var sjukt svårt jag blanda ihop metod och konstruktor så vart fel väldigt länge
+    //Men tills slut löste det sig.
 
     public static void compare(Book aBook, Book aBook2){
     if (aBook.pages > aBook2.pages)
