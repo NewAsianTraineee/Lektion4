@@ -19,7 +19,7 @@ public class Book {
         time = pages / pageDay;
     }
     void checkGenre(){
-    if (genre == "Fantasy")
+    if (genre.equals("Fantasy"))
     {
         System.out.println("Genre: Fantasy");
     }
@@ -40,3 +40,4 @@ public class Book {
                 '}';
     }
 }
+
